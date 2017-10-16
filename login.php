@@ -17,5 +17,15 @@
 </div>
 </body>
 </html>
+<?php
+session_start();
+if(isset($_SESSION["error"])){
+  echo('<span style="color: red;">Nom d\'utilisateur ou mot de passe invalide.</span>');
+  $_SESSION = array();
+}
+if (isset($_SESSION["logged"])) {
+  header('Location: index.php');
+}
+?>
 
 
