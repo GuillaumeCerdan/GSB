@@ -9,14 +9,9 @@
  <div class="form">
     
 <form class="login-form" name="form1" method="post" action="islogged.php">
-<input name="login" placeholder="Utilisateur" type="text" id="myusername" style="margin-top:30px;">
-<input name="password" type="password" placeholder="Mot de passe" id="mypassword">
+<input name="login" placeholder="Utilisateur" type="text" id="login" style="margin-top:30px;">
+<input name="password" type="password" placeholder="Mot de passe" id="password">
 <input type="submit" name="submit" value="Se connecter">
-
-</form>
-</div>
-</body>
-</html>
 <?php
 session_start();
 if(isset($_SESSION["error"])){
@@ -27,5 +22,10 @@ if (isset($_SESSION["logged"])) {
   header('Location: index.php');
 }
 ?>
+</form>
+</div>
+</body>
+</html>
+
 
 

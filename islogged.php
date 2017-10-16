@@ -3,7 +3,7 @@
 session_start();
 
 try {
-  $bdd = new PDO('mysql:host=localhost;dbname=gsb1;charset=utf_', 'root', '');
+  $bdd = new PDO('mysql:host=localhost;dbname=gsb1;charset=utf8', 'root', '');
 }
 catch (Exception $e) {
   die('Erreur : ' . $e->getMessage());
@@ -27,7 +27,8 @@ $reponse->bindParam(':password', $password);
 
 $reponse->execute();
 
-if($reponse->rowCount() == 1) {
+
+if($reponse->rowCount() == 2) {
   header('Location: index.php');
   $_SESSION["logged"] = $login;
 }
