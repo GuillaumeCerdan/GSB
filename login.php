@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Michel Herbelin | Accès Pro</title>
       <link href="style.css" rel="stylesheet">
       <!--<script src="scripts/main.js"></script>-->
 
