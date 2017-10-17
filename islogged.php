@@ -28,7 +28,7 @@ $reponse->bindParam(':password', $password);
 $reponse->execute();
 
 
-if($reponse->rowCount() == 2) {
+if($reponse->rowCount() == 1) {
   header('Location: index.php');
   $_SESSION["logged"] = $login;
 }

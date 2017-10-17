@@ -2,7 +2,6 @@
 <html>
     <head>
       <link href="style.css" rel="stylesheet">
-      <!--<script src="scripts/main.js"></script>-->
 
 </head>
 <body>
