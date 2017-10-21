@@ -12,10 +12,14 @@ if ( !isset($_SESSION["logged"])) {
 <head lang="en">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="style.css">
 
-<body>
+<body class="bck">
+
+
+<div class="container2">
 
 <a href="logout.php" class="logout">LOGOUT</a>
-
+</div>
 </body>
 </html>

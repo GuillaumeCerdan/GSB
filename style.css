@@ -63,4 +63,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
+/*  styles pour  index.php */
+.bck
+{
+  background-color: #153D5D;
+  font-family: 'Roboto', sans-serif;
+}
+.container2
+{
+  text-align: center;
+}
 
+.logout
+{
+  color: white;
+  font-size: 18px;
+  
+}
