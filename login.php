@@ -21,6 +21,8 @@ if (isset($_SESSION["logged"])) {
   header('Location: index.php');
 }
 ?>
+
+<a href="createAccount.php">Créer un compte</a>
 </form>
 </div>
 </body>

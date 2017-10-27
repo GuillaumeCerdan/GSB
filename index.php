@@ -16,10 +16,16 @@ if ( !isset($_SESSION["logged"])) {
 
 <body class="bck">
 
+	<div class="container2">
+		<a href="logout.php" class="logout">LOGOUT</a>
+	</div>
 
-<div class="container2">
 
-<a href="logout.php" class="logout">LOGOUT</a>
-</div>
+	<h1 class="blanc">Informations visiteurs</h1>
+	<input name="nom" type="text" >
+
+
+
 </body>
+
 </html>
